@@ -5,8 +5,6 @@ import lombok.Getter;
 /**
  * @author xuzidong
  * @version V1.0.0
-
- * @description <p></p >
  * @since 2020/8/6 09:42
  */
 @Getter

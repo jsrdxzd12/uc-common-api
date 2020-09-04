@@ -24,8 +24,7 @@ public class ApiSignUtils {
      * 生成签名
      *
      * @param accessKey sk密钥
-     * @param queryParams 传入的参数值
-     * @return
+     * @param queryParams 传入的参数值 
      */
     public static String generateSignature(AkskStrategy akskStrategy, Map<String, Object> queryParams, String... accessKey) {
         String origin = origin(queryParams);

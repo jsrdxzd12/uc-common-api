@@ -46,7 +46,6 @@ public class JwtTokenUtils {
                 .setExpiration(new Date(System.currentTimeMillis() + expiration * 1000)).compact();
     }
 
-
     /**
      * 获取用户角色
      */
@@ -54,20 +53,19 @@ public class JwtTokenUtils {
     public static UserInfoBo getJwtUser(String token) throws TokenException {
         Claims claims = getTokenBody(token);
         if (ObjectUtils.isEmpty(claims)){
-            return null;
+            throw new TokenException("token无效.");
         }
         try {
             Object object = claims.get(SecurityConstants.ROLE_CLAIMS);
             if (ObjectUtils.isEmpty(object)) {
-                return null;
+                throw new TokenException("token无效.");
             }
             UserInfoBo user= JsonMapper.jsonToObject( JsonMapper.objectToJson(object), UserInfoBo.class);
-
             return user ;
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        throw new TokenException("token无效.");
     }
 
 

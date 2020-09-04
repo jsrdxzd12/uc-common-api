@@ -67,8 +67,6 @@ public class SuperExceptionAdviceHandler {
                 .message(HttpStatus.METHOD_ARGUMENT_NOT_VALID_EXCEPTION.name())
                 .path(request.getRequestURL().toString())
                 .dateTime(new Timestamp(System.currentTimeMillis())).build();
-
-
     }
 
     @ExceptionHandler(value = Exception.class)

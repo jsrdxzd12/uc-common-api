@@ -41,7 +41,6 @@ public class ApiAutoConfiguration {
      * 默认日期时间格式
      */
     public static final String DEFAULT_DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
-
     @Bean
     @LoadBalanced
     @ConditionalOnMissingBean
@@ -49,7 +48,6 @@ public class ApiAutoConfiguration {
         RestTemplateBuilder restTemplateBuilder = new RestTemplateBuilder();
         RestTemplate restTemplate = restTemplateBuilder.build();
         restTemplate.setRequestFactory(new OkHttp3ClientHttpRequestFactory());
-
 
         Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder().indentOutput(true).modulesToInstall(new ParameterNamesModule());
         MappingJackson2HttpMessageConverter jsonConverter = new MappingJackson2HttpMessageConverter(builder.build());

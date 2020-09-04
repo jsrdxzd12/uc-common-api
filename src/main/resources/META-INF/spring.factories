@@ -1,5 +1,5 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.mozi.x.api.common.profile.ApiAutoConfiguration,\
-  com.mozi.icity.api.common.profile.ApiSignatureAutoConfiguration,\
-  com.mozi.icity.api.common.profile.ApiRedisAutoConfiguration
+  org.mozi.xzd.api.common.profile.ApiAutoConfiguration,\
+  org.mozi.xzd.api.common.profile.ApiSignatureAutoConfiguration,\
+  org.mozi.xzd.api.common.profile.ApiRedisAutoConfiguration
