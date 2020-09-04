@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bfc7b0b-45dd-4996-b5a2-8e2ff8138670" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/advice/SuperExceptionAdviceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/advice/SuperExceptionAdviceHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/ApiSignUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/ApiSignUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/domain/vo/ApiSignVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/domain/vo/ApiSignVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/domain/vo/SignatureMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/domain/vo/SignatureMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/crypto/utils/AES.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/jwt/JwtTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/jwt/JwtTokenUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/profile/ApiAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/profile/ApiAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/user/domain/SysAppSecret.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/user/domain/UserInfoBo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mozi/xzd/api/common/user/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +36,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.mvn/wrapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -58,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.mvn/wrapper" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -134,7 +128,7 @@
       <updated>1599221237412</updated>
       <workItem from="1599221238554" duration="1347000" />
       <workItem from="1599222620330" duration="1616000" />
-      <workItem from="1599224681330" duration="4946000" />
+      <workItem from="1599224681330" duration="6012000" />
     </task>
     <task id="LOCAL-00001" summary="java 核心包">
       <created>1599222372996</created>
@@ -143,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599222372996</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java 核心包">
+      <created>1599230199616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599230199616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java 核心包">
+      <created>1599230224279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599230224279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,29 +170,34 @@
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
     <state x="0" y="361" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1014@0.23.1920.1014" timestamp="1599221333164" />
-    <state x="534" y="144" key="CommitChangelistDialog2" timestamp="1599222372712">
-      <screen x="0" y="23" width="1920" height="1014" />
+    <state x="534" y="144" key="CommitChangelistDialog2" timestamp="1599230223980">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
+    <state x="534" y="144" key="CommitChangelistDialog2/0.23.1920.1013@0.23.1920.1013" timestamp="1599230223980" />
     <state x="534" y="144" key="CommitChangelistDialog2/0.23.1920.1014@0.23.1920.1014" timestamp="1599222372712" />
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1599228804834">
-      <screen x="0" y="23" width="1920" height="1012" />
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1599230403623">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1012@0.23.1920.1012" timestamp="1599228804834" />
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1013@0.23.1920.1013" timestamp="1599230403623" />
     <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1014@0.23.1920.1014" timestamp="1599225632475" />
-    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1599228804833">
-      <screen x="0" y="23" width="1920" height="1012" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1599230403622">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.center/0.23.1920.1012@0.23.1920.1012" timestamp="1599228804833" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.23.1920.1013@0.23.1920.1013" timestamp="1599230403622" />
     <state width="1878" height="267" key="GridCell.Tab.0.center/0.23.1920.1014@0.23.1920.1014" timestamp="1599225632474" />
-    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1599228804833">
-      <screen x="0" y="23" width="1920" height="1012" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1599230403621">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.left/0.23.1920.1012@0.23.1920.1012" timestamp="1599228804833" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.23.1920.1013@0.23.1920.1013" timestamp="1599230403621" />
     <state width="1878" height="267" key="GridCell.Tab.0.left/0.23.1920.1014@0.23.1920.1014" timestamp="1599225632474" />
-    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1599228804834">
-      <screen x="0" y="23" width="1920" height="1012" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1599230403622">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.right/0.23.1920.1012@0.23.1920.1012" timestamp="1599228804834" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.23.1920.1013@0.23.1920.1013" timestamp="1599230403622" />
     <state width="1878" height="267" key="GridCell.Tab.0.right/0.23.1920.1014@0.23.1920.1014" timestamp="1599225632475" />
     <state x="502" y="182" key="SettingsEditor" timestamp="1599225618520">
       <screen x="0" y="23" width="1920" height="1014" />
