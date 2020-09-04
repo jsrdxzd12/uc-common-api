@@ -1,0 +1,5 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.mozi.xzd.api.common.profile.ApiAutoConfiguration,\
+  org.mozi.xzd.api.common.profile.ApiSignatureAutoConfiguration,\
+  org.mozi.xzd.api.common.profile.ApiRedisAutoConfiguration

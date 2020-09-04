@@ -1,0 +1,185 @@
+{
+  "groups": [
+    {
+      "name": "spring.api",
+      "type": "org.mozi.xzd.api.common.profile.properties.ApiProperties",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiProperties"
+    },
+    {
+      "name": "spring.api.cache",
+      "type": "org.mozi.xzd.api.common.profile.properties.ApiCacheProperties",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiCacheProperties"
+    },
+    {
+      "name": "spring.api.client.signature",
+      "type": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties"
+    },
+    {
+      "name": "spring.api.server.signature",
+      "type": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.api.cache.enabled",
+      "type": "java.lang.Boolean",
+      "description": "开启api缓存接口 <pre>     enabled: false <\/pre>",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiCacheProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.api.client.signature.access-key",
+      "type": "java.lang.String",
+      "description": "accessKey",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-ACCESS_KEY"
+    },
+    {
+      "name": "spring.api.client.signature.bearer-token",
+      "type": "java.lang.String",
+      "description": "BearerToken Authorization",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "Authorization"
+    },
+    {
+      "name": "spring.api.client.signature.nonce",
+      "type": "java.lang.String",
+      "description": "随机6位正整数，与 Timestamp 联合起来，用于防止重放攻击。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-NONCE"
+    },
+    {
+      "name": "spring.api.client.signature.server-code",
+      "type": "java.lang.String",
+      "description": "server code 编码",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-SERVER-CODE"
+    },
+    {
+      "name": "spring.api.client.signature.server-instance",
+      "type": "java.lang.String",
+      "description": "验签服务地址 服务发现地址  示例http:\/\/uc-user-center",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "spring.api.client.signature.server-url",
+      "type": "java.lang.String",
+      "description": "验签服务地址 远程访问",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "spring.api.client.signature.signature",
+      "type": "java.lang.String",
+      "description": "请求签名，用来验证此次请求的合法性，需要用户根据实际的输入参数计算得出。具体计算方法参见接口鉴权部分说明。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-SIGNATURE"
+    },
+    {
+      "name": "spring.api.client.signature.signature-config",
+      "type": "java.util.Map<java.lang.String,org.mozi.xzd.api.common.profile.properties.ApiSignatureConfig>",
+      "description": "多AK SK 配置项",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties"
+    },
+    {
+      "name": "spring.api.client.signature.signature-method",
+      "type": "java.lang.String",
+      "description": "加密方案选择 默认HMAC_SHA256",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-SIGNATURE-METHOD"
+    },
+    {
+      "name": "spring.api.client.signature.signature-select-config-default-key",
+      "type": "java.lang.String",
+      "description": "多AK SK 配置项 首个默认配置项",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "default"
+    },
+    {
+      "name": "spring.api.client.signature.timestamp",
+      "type": "java.lang.String",
+      "description": "当前 UNIX 时间戳可记录发起 API 请求的时间。 例如 1529223702。注意：如果与服务器时间相差超过5分钟，会引起签名过期错误。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-Timestamp"
+    },
+    {
+      "name": "spring.api.client.signature.version",
+      "type": "java.lang.String",
+      "description": "操作的 API 的版本。取值参考接口文档中入参公共参数 Version 的说明。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiClientSignatureProperties",
+      "defaultValue": "X-Version"
+    },
+    {
+      "name": "spring.api.component-rest-client-packages",
+      "type": "java.lang.String",
+      "description": "componentRestClientPackages 配置地址 多个可以用逗号隔开 <pre>      componentRestClientPackages: com.jd.icity.** ,com.jd.icity.**.interface <\/pre>",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiProperties"
+    },
+    {
+      "name": "spring.api.enabled",
+      "type": "java.lang.Boolean",
+      "description": "开启api接口 <pre>     enabled: false <\/pre>",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.api.server.signature.access-key",
+      "type": "java.lang.String",
+      "description": "accessKey",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-ACCESS_KEY"
+    },
+    {
+      "name": "spring.api.server.signature.duration-mt",
+      "type": "java.lang.Long",
+      "description": "默认5分钟",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties"
+    },
+    {
+      "name": "spring.api.server.signature.nonce",
+      "type": "java.lang.String",
+      "description": "随机6位正整数，与 Timestamp 联合起来，用于防止重放攻击。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-NONCE"
+    },
+    {
+      "name": "spring.api.server.signature.server-code",
+      "type": "java.lang.String",
+      "description": "server code 编码",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-SERVER-CODE"
+    },
+    {
+      "name": "spring.api.server.signature.signature",
+      "type": "java.lang.String",
+      "description": "请求签名，用来验证此次请求的合法性，需要用户根据实际的输入参数计算得出。具体计算方法参见接口鉴权部分说明。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-SIGNATURE"
+    },
+    {
+      "name": "spring.api.server.signature.signature-method",
+      "type": "java.lang.String",
+      "description": "加密方案选择 默认 HMAC_SHA256",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-SIGNATURE-METHOD"
+    },
+    {
+      "name": "spring.api.server.signature.timestamp",
+      "type": "java.lang.String",
+      "description": "当前 UNIX 时间戳可记录发起 API 请求的时间。 例如 1529223702。注意：如果与服务器时间相差超过5分钟，会引起签名过期错误。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-Timestamp"
+    },
+    {
+      "name": "spring.api.server.signature.version",
+      "type": "java.lang.String",
+      "description": "操作的 API 的版本。取值参考接口文档中入参公共参数 Version 的说明。",
+      "sourceType": "org.mozi.xzd.api.common.profile.properties.ApiServerSignatureProperties",
+      "defaultValue": "X-Version"
+    }
+  ],
+  "hints": []
+}
