@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bfc7b0b-45dd-4996-b5a2-8e2ff8138670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +125,7 @@
       <updated>1599221237412</updated>
       <workItem from="1599221238554" duration="1347000" />
       <workItem from="1599222620330" duration="1616000" />
-      <workItem from="1599224681330" duration="6012000" />
+      <workItem from="1599224681330" duration="7309000" />
     </task>
     <task id="LOCAL-00001" summary="java 核心包">
       <created>1599222372996</created>
@@ -151,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599230224279</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java 核心包">
+      <created>1599236300977</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599236300977</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,9 +174,10 @@
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
     <state x="0" y="361" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1014@0.23.1920.1014" timestamp="1599221333164" />
-    <state x="534" y="144" key="CommitChangelistDialog2" timestamp="1599230223980">
-      <screen x="0" y="23" width="1920" height="1013" />
+    <state x="401" y="23" key="CommitChangelistDialog2" timestamp="1599236300702">
+      <screen x="0" y="23" width="1440" height="752" />
     </state>
+    <state x="401" y="23" key="CommitChangelistDialog2/0.23.1440.752@0.23.1440.752" timestamp="1599236300702" />
     <state x="534" y="144" key="CommitChangelistDialog2/0.23.1920.1013@0.23.1920.1013" timestamp="1599230223980" />
     <state x="534" y="144" key="CommitChangelistDialog2/0.23.1920.1014@0.23.1920.1014" timestamp="1599222372712" />
     <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1599230403623">
@@ -203,6 +208,10 @@
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
     <state x="502" y="182" key="SettingsEditor/0.23.1920.1014@0.23.1920.1014" timestamp="1599225618520" />
+    <state x="320" y="134" key="Vcs.Push.Dialog.v2" timestamp="1599236307605">
+      <screen x="0" y="23" width="1440" height="752" />
+    </state>
+    <state x="320" y="134" key="Vcs.Push.Dialog.v2/0.23.1440.752@0.23.1440.752" timestamp="1599236307605" />
     <state x="1296" y="461" width="624" height="576" key="find.popup" timestamp="1599222173294">
       <screen x="0" y="23" width="1920" height="1014" />
     </state>
